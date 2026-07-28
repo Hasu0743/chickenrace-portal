@@ -1,0 +1,63 @@
+html, body {
+  margin: 0;
+  font-family: "Segoe UI", "Hiragino Sans", sans-serif;
+  background: #0b1620;
+  color: #eafff0;
+  line-height: 1.7;
+}
+
+header, main, footer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 20px;
+}
+
+header {
+  text-align: center;
+  border-bottom: 1px solid #234;
+}
+
+header h1 {
+  margin: 0 0 8px;
+  color: #06d6a0;
+}
+
+h2 {
+  color: #7fd6a8;
+  border-bottom: 1px solid #234;
+  padding-bottom: 6px;
+}
+
+.projectList {
+  list-style: none;
+  padding: 0;
+}
+
+.projectList li {
+  background: #12202c;
+  border-radius: 8px;
+  padding: 14px 18px;
+  margin-bottom: 12px;
+}
+
+.projectList a {
+  color: #06d6a0;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.projectList a:hover {
+  text-decoration: underline;
+}
+
+.note {
+  color: #9fd6b0;
+  font-size: 14px;
+}
+
+footer {
+  text-align: center;
+  color: #567;
+  font-size: 13px;
+}
