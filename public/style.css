@@ -56,6 +56,34 @@ h2 {
   font-size: 14px;
 }
 
+.postList {
+  list-style: none;
+  padding: 0;
+}
+
+.postList li {
+  padding: 8px 0;
+  border-bottom: 1px solid #234;
+}
+
+.postList a {
+  color: #eafff0;
+  margin-left: 10px;
+}
+
+.postDate, .postDate time {
+  color: #7fd6a8;
+  font-size: 13px;
+}
+
+article p {
+  margin: 16px 0;
+}
+
+main a {
+  color: #06d6a0;
+}
+
 footer {
   text-align: center;
   color: #567;
